@@ -1,6 +1,6 @@
 cask "clipflow" do
-  version "1.1.0"
-  sha256 "6734004347b5ece000f97cb105ba27060420ce6852d3e26aad890c041c18832f"
+  version "1.2.0"
+  sha256 "5b4c231788279c8bfbe8312c93b7c19f27d6e3a44a96bc0e6c73f7b2ef73f93e"
 
   url "https://github.com/relbns/ClipFlow/releases/download/v#{version}/ClipFlow.dmg"
   name "ClipFlow"
