@@ -19,8 +19,13 @@ cask "clipflow" do
   uninstall quit: "io.benesh.clipflow"
 
   zap trash: [
+    "~/Library/Application Scripts/io.benesh.clipflow",
     "~/Library/Application Support/ClipFlow",
+    "~/Library/Caches/io.benesh.clipflow",
+    "~/Library/Containers/io.benesh.clipflow",
+    "~/Library/HTTPStorages/io.benesh.clipflow",
     "~/Library/Preferences/io.benesh.clipflow.plist",
+    "~/Library/Saved Application State/io.benesh.clipflow.savedState",
   ]
 
   caveats <<~EOS
